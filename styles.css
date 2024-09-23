@@ -16,34 +16,35 @@ footer {
 }
 
 .w {
-
+background-image: url("images/drum1.png")
 }
 
 .a {
-
+  background-image: url("images/kick.png")
 }
 
 .s {
-
+  background-image: url("images/drum2.png")
 }
 
 .d {
-
+  background-image: url("images/drum3.png")
 }
 
 .j {
-
+  background-image: url("images/snare.png")
 }
 
 .k {
-
+  background-image: url("images/crash.png")
 }
 
 .l {
-
+  background-image: url("images/drum4.png")
 }
 
-margin: 10% auto;
+.set {
+  margin: 10% auto;
 }
 
 .game-over {
@@ -52,7 +53,7 @@ margin: 10% auto;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #70DB93;
   opacity: 0.5;
 }
 
@@ -67,8 +68,8 @@ margin: 10% auto;
   font-family: 'Ubuntu', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #238E68;
+  text-shadow: 3px 0 #FF0000;
   border-radius: 15px;
   display: inline-block;
   width: 150px;

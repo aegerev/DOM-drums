@@ -29,23 +29,3 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
         let crash = new Audio('sounds/crash.mp3');
         crash.play();
     });
-
-    document.querySelectorAll(".drum")[6].addEventListener("click", function() {
-        let drum4 = new Audio('sounds/drum-4.mp3');
-        drum4.play();
-    });
-
-    //     function makeSound(key) {
-    //         switch(key) {
-    //             case 'w': 
-    //                 alert("I got clicked!");
-    //                 // 
-    //             break;
-    
-    //                 default: 
-    //                 var audio = new Audio('sounds/crash.mp3');
-    //                 audio.play();
-    //     }
-        
-    // }
-   

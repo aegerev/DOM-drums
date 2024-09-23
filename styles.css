@@ -39,10 +39,6 @@ background-image: url("images/drum1.png")
   background-image: url("images/crash.png")
 }
 
-.l {
-  background-image: url("images/drum4.png")
-}
-
 .set {
   margin: 10% auto;
 }
